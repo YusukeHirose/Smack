@@ -10,6 +10,7 @@
 		022A8C28B1E75E8F2C2882A8 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C30F4B0B13C22092CD7ABF /* Pods_Smack.framework */; };
 		CE1511381F4550ED00486C3A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1511371F4550ED00486C3A /* ChatVC.swift */; };
 		CE15113A1F45511D00486C3A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1511391F45511D00486C3A /* ChannelVC.swift */; };
+		CE15113D1F45655100486C3A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1511321F454C7D00486C3A /* SWRevealViewController.m */; };
 		CE6593D31F4539C7001BED0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6593D21F4539C7001BED0D /* AppDelegate.swift */; };
 		CE6593D81F4539C7001BED0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6593D61F4539C7001BED0D /* Main.storyboard */; };
 		CE6593DA1F4539C7001BED0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6593D91F4539C7001BED0D /* Assets.xcassets */; };
@@ -255,6 +256,7 @@
 				CE1511381F4550ED00486C3A /* ChatVC.swift in Sources */,
 				CE15113A1F45511D00486C3A /* ChannelVC.swift in Sources */,
 				CE6593D31F4539C7001BED0D /* AppDelegate.swift in Sources */,
+				CE15113D1F45655100486C3A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,9 +398,10 @@
 				DEVELOPMENT_TEAM = 4U625YVHAN;
 				INFOPLIST_FILE = Smack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yusukehirose.Smack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Smack-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smack/Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,9 +417,10 @@
 				DEVELOPMENT_TEAM = 4U625YVHAN;
 				INFOPLIST_FILE = Smack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yusukehirose.Smack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Smack-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smack/Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
