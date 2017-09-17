@@ -23,6 +23,8 @@
 		CED9AE001F6128C800D88661 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9ADFF1F6128C800D88661 /* CircleImage.swift */; };
 		CEE738CD1F66732400386C7D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE738CB1F66732400386C7D /* ProfileVC.swift */; };
 		CEE738CE1F66732400386C7D /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE738CC1F66732400386C7D /* ProfileVC.xib */; };
+		CEE738D11F691B2D00386C7D /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE738D01F691B2D00386C7D /* MessageService.swift */; };
+		CEE738D31F691BA100386C7D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE738D21F691BA100386C7D /* Channel.swift */; };
 		CEEEC7421F46C4A1009F49EC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC7411F46C4A1009F49EC /* GradientView.swift */; };
 		CEEEC7451F46D7AD009F49EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC7441F46D7AD009F49EC /* Constants.swift */; };
 		CEEEC7471F46E927009F49EC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC7461F46E927009F49EC /* LoginVC.swift */; };
@@ -52,6 +54,8 @@
 		CED9ADFF1F6128C800D88661 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		CEE738CB1F66732400386C7D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		CEE738CC1F66732400386C7D /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		CEE738D01F691B2D00386C7D /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		CEE738D21F691BA100386C7D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		CEEEC7411F46C4A1009F49EC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CEEEC7441F46D7AD009F49EC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CEEEC7461F46E927009F49EC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 		CE1511351F4550B500486C3A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CEE738D21F691BA100386C7D /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			children = (
 				CE189B851F4AC88E001216B5 /* AuthService.swift */,
 				CEABBBDF1F4F442300E3DEBA /* UserDataService.swift */,
+				CEE738D01F691B2D00386C7D /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -318,7 +324,9 @@
 				CE1511381F4550ED00486C3A /* ChatVC.swift in Sources */,
 				CEABBBE21F59C8F800E3DEBA /* AvatarPickerVC.swift in Sources */,
 				CE189B881F4AE784001216B5 /* RoundedButton.swift in Sources */,
+				CEE738D31F691BA100386C7D /* Channel.swift in Sources */,
 				CED9AE001F6128C800D88661 /* CircleImage.swift in Sources */,
+				CEE738D11F691B2D00386C7D /* MessageService.swift in Sources */,
 				CE15113A1F45511D00486C3A /* ChannelVC.swift in Sources */,
 				CEABBBE01F4F442300E3DEBA /* UserDataService.swift in Sources */,
 				CEEEC7491F46EFD4009F49EC /* CreateAccountVC.swift in Sources */,
